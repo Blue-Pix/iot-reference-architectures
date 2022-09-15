@@ -64,7 +64,7 @@ val awsCdkConstructsForJava = "0.15.11"
 val awsLambdaServletVersion = "0.2.4"
 val daggerVersion = "2.38.1"
 val resultsIteratorForAwsJavaSdkVersion = "29.0.14"
-val bouncyCastleVersion = "1.69"
+val bouncyCastleVersion = "1.70"
 
 dependencies {
     implementation("io.vavr:vavr:$vavrVersion")
