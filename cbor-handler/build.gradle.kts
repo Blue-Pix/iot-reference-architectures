@@ -5,7 +5,7 @@ plugins {
     id("idea")
 
     // Creates fat JAR
-    id("com.github.johnrengelman.shadow") version "7.0.0"
+    id("com.github.johnrengelman.shadow") version "7.1.2"
 }
 
 extensions.findByName("buildScan")?.withGroovyBuilder {
