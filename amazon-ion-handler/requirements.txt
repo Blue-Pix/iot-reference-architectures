@@ -1,2 +1,2 @@
-amazon.ion==0.7.0
+amazon.ion==0.10.0
 certifi==2021.5.30
