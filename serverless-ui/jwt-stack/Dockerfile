@@ -1,4 +1,4 @@
-FROM ubuntu AS awsIotDeviceSdk
+FROM ubuntu:kinetic AS awsIotDeviceSdk
 
 # Get curl
 RUN apt-get -y update
@@ -25,7 +25,7 @@ RUN npm install -g uglify-js
 # Reduce the bundle size
 RUN uglifyjs browser/aws-iot-sdk-browser-bundle.js -c -m -o browser/aws-iot-sdk-browser-bundle-min-uglifyjs.js
 
-FROM ubuntu AS builder
+FROM ubuntu:kinetic AS builder
 
 # Get curl and OpenJDK
 RUN apt-get -y update
